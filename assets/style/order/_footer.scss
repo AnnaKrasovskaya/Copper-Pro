@@ -1,0 +1,89 @@
+footer {
+  background: linear-gradient(
+    -29.17deg,
+    rgb(11, 63, 55) 43.388%,
+    rgb(203, 141, 98) 132.439%
+  );
+  .wrapper-footer {
+    padding-top: 80px;
+    max-width: 1404px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    @media (max-width: 497px) {
+      flex-wrap: wrap;
+    }
+  }
+  .wrap-copperPro {
+    @media (max-width: 497px) {
+      margin-bottom: 30px;
+    }
+    img {
+      margin-bottom: 24px;
+    }
+    .wrap-copperpro-text {
+      margin-bottom: 21px;
+      p {
+        color: rgb(173, 173, 173);
+        font-family: "Mont";
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 134.4%;
+      }
+    }
+    a {
+      color: white;
+      font-family: "Mont";
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 134.4%;
+    }
+  }
+  .wrap-nav {
+    display: flex;
+    max-width: 637px;
+    justify-content: space-between;
+    flex-grow: 1;
+    .nav-1,
+    .nav-2,
+    .nav-3 {
+      display: flex;
+      flex-direction: column;
+      h5 {
+        color: white;
+        font-family: "Mont";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 96.4%;
+        margin-bottom: 15px;
+        @media (max-width: 497px) {
+          padding-right: 20px;
+        }
+      }
+      a {
+        color: white;
+        font-family: "Mont";
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 134.4%;
+        text-decoration: none;
+        margin-bottom: 15px;
+      }
+      .wrap-nav-img {
+        display: flex;
+        max-width: 84px;
+        justify-content: space-between;
+      }
+      img {
+        width: 21px;
+        height: 17px;
+      }
+    }
+    .nav-3 {
+      a {
+        max-width: 132px;
+      }
+    }
+  }
+}
