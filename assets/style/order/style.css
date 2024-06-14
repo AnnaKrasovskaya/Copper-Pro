@@ -41,7 +41,6 @@
   font-weight: 400;
   font-style: normal;
   src: url(../../fonts/lighthaus/Lighthaus.ttf) format("truetype");
- 
 }
 header {
   font-family: "Mont";
@@ -518,5 +517,4 @@ footer .wrap-nav .nav-3 a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }/*# sourceMappingURL=style.css.map */
