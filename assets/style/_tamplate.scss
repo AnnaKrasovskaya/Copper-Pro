@@ -40,25 +40,3 @@
   font-style: normal;
   src: url(../../fonts/lighthaus/Lighthaus.ttf) format("truetype");
 }
-$colorwhite: white;
-$colortitle: #031412;
-$colorcopyright: #adadad;
-@mixin mont($fontsize, $lineheight, $fontweight) {
-  font-family: "Mont";
-  font-size: $fontsize;
-  line-height: $lineheight;
-  font-weight: $fontweight;
-}
-@mixin montitalic($fontsize, $lineheight, $fontweight) {
-  font-family: "Mont";
-  font-style: italic;
-  font-size: $fontsize;
-  line-height: $lineheight;
-  font-weight: $fontweight;
-}
-@mixin lighthaus($fontsize, $lineheight, $fontweight) {
-  font-family: "Lighthaus";
-  font-size: $fontsize;
-  line-height: $lineheight;
-  font-weight: $fontweight;
-}

@@ -1,0 +1,10 @@
+$text_font: "Mont";
+$text_color: rgb(3, 20, 18);
+$h1h2_font: "Lighthaus";
+$h3h4_font: "Mont";
+@mixin font($size, $weight, $height, $color: rgb(3, 20, 18)) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  color: $color;
+}
