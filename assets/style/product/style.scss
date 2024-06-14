@@ -1,2 +1,48 @@
-@import "../_tamplate";
-@import "../_vars";
+@import "../tamplate";
+@import "../vars";
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1920px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  .container {
+    padding-right: 260px;
+    padding-left: 260px;
+    margin: auto;
+    @media (max-width: 770px) {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    @media (max-width: 320px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    img {
+      width: 100%;
+      display: block;
+    }
+    a {
+      font-family: $text_font;
+      display: inline-block;
+      text-decoration: none;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+    span,
+    p {
+      font-family: $text_font;
+      color: $text_color;
+    }
+  }
+}
