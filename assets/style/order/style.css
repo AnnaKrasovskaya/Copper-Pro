@@ -1,3 +1,5 @@
+@import url("../fonts/Mont/Mont-Light.ttf");
+@import url("../fonts/lighthaus/Lighthaus.ttf");
 @font-face {
   font-family: "Mont";
   src: url(../../fonts/Mont/Mont-Regular.ttf) format("truetype");
@@ -39,4 +41,482 @@
   font-weight: 400;
   font-style: normal;
   src: url(../../fonts/lighthaus/Lighthaus.ttf) format("truetype");
+ 
+}
+header {
+  font-family: "Mont";
+  background: linear-gradient(-29.17deg, rgb(11, 63, 55) 43.388%, rgb(203, 141, 98) 132.439%);
+  min-height: 142px;
+  padding-top: 41px;
+  margin-bottom: 72px;
+}
+header .wrapper-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1404px;
+}
+@media (max-width: 781px) {
+  header .wrapper-header {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  header .wrapper-header img {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 435px) {
+  header .wrapper-header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+header .wrapper-header img {
+  padding-right: 76px;
+}
+header .wrapper-header a {
+  padding-right: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 96.4%;
+  text-decoration: none;
+}
+@media (max-width: 560px) {
+  header .wrapper-header a {
+    padding-right: 25px;
+  }
+}
+@media (max-width: 435px) {
+  header .wrapper-header a {
+    display: none;
+  }
+}
+header .burger_menu {
+  display: none;
+}
+header .burger_menu img {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 435px) {
+  header .burger_menu {
+    display: block;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+
+main {
+  margin-bottom: 80px;
+}
+main h1 {
+  color: rgb(3, 20, 18);
+  font-family: "Lighthaus";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 105.9%;
+  max-width: 1404px;
+  margin: 0px auto 51px;
+  text-transform: uppercase;
+}
+@media (max-width: 1173px) {
+  main h1 {
+    text-align: center;
+  }
+}
+main .main-info {
+  display: flex;
+  max-width: 1404px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+@media (max-width: 1173px) {
+  main .main-info {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1024px) {
+  main .main-info {
+    justify-content: center;
+  }
+}
+main .main-info .main-kabinet {
+  padding-right: 149px;
+}
+@media (max-width: 1173px) {
+  main .main-info .main-kabinet {
+    padding-right: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  main .main-info .main-kabinet {
+    margin-bottom: 50px;
+  }
+}
+main .main-info .main-kabinet .main-wrapper-kabinet {
+  display: flex;
+  flex-direction: column;
+}
+main .main-info .main-kabinet .main-wrapper-kabinet a {
+  color: white;
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 96.4%;
+  padding-left: 27px;
+  text-decoration: none;
+}
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-1,
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-2,
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-3 {
+  width: 326px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 10px 0px 0px 20px;
+}
+@media (max-width: 1024px) {
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-1,
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-2,
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-3 {
+    width: 626px;
+  }
+}
+@media (max-width: 646px) {
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-1,
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-2,
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-3 {
+    width: 426px;
+  }
+}
+@media (max-width: 445px) {
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-1,
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-2,
+  main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-3 {
+    width: 326px;
+  }
+}
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-1 {
+  background: linear-gradient(150.16deg, rgb(94, 57, 40) 19.968%, rgb(228, 161, 111) 92.914%);
+}
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-2,
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-3 {
+  background: linear-gradient(-36.49deg, rgb(11, 63, 55) -6.658%, rgb(203, 141, 98) 131.874%);
+}
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-4 {
+  display: flex;
+}
+main .main-info .main-kabinet .main-wrapper-kabinet .wrap-kab-4 a {
+  padding-left: 19px;
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 96.4%;
+  text-align: center;
+  text-decoration: none;
+}
+main .main-info .main-form {
+  max-width: 684px;
+}
+main .main-info .main-form .main-form-ivan {
+  display: flex;
+  margin-bottom: 41px;
+}
+main .main-info .main-form .main-form-ivan .wrapper-ivan {
+  padding: 24px 0px 0px 22px;
+}
+main .main-info .main-form .main-form-ivan .wrapper-ivan p {
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 96.4%;
+  margin-bottom: 27px;
+}
+main .main-info .main-form .main-form-ivan .wrapper-ivan h2 {
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 96.4%;
+  margin-bottom: 27px;
+}
+main .main-info .main-form .main-form-ivan .wrapper-ivan .wrapper-ivan-load {
+  display: flex;
+}
+main .main-info .main-form .main-form-ivan .wrapper-ivan .wrapper-ivan-load img {
+  width: 16px;
+  height: 15px;
+}
+main .main-info .main-form .main-form-ivan .wrapper-ivan .wrapper-ivan-load p {
+  padding-top: 3px;
+  padding-left: 6px;
+  margin-bottom: 0px;
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 96.4%;
+}
+main .main-info .main-form .main-form-ivan .wrapper-ivan .wrapper-ivan-load span {
+  padding-left: 8px;
+  padding-top: 3px;
+  color: rgb(161, 161, 161);
+  font-family: "Mont";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 96.4%;
+}
+main .main-info .main-form .main-form-input {
+  display: grid;
+  gap: 30px;
+  max-width: 684px;
+  margin-bottom: 30px;
+}
+main .main-info .main-form .main-form-input input {
+  width: 327px;
+  height: 50px;
+  padding-left: 20px;
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 96.4%;
+  border: 1px solid rgb(161, 161, 161);
+}
+main .main-info .main-form .main-form-input .wrapper-input-1,
+main .main-info .main-form .main-form-input .wrapper-input-2,
+main .main-info .main-form .main-form-input .wrapper-input-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+@media (max-width: 698px) {
+  main .main-info .main-form .main-form-input .wrapper-input-1,
+  main .main-info .main-form .main-form-input .wrapper-input-2,
+  main .main-info .main-form .main-form-input .wrapper-input-3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+  }
+}
+main .main-info .main-form hr {
+  border: 1px solid rgb(230, 232, 231);
+  margin-bottom: 30px;
+}
+main .main-info .main-form h4 {
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 96.4%;
+  margin-bottom: 24px;
+}
+@media (max-width: 668px) {
+  main .main-info .main-form h4 {
+    text-align: center;
+  }
+}
+main .main-info .main-form .main-change-pass {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 668px) {
+  main .main-info .main-form .main-change-pass {
+    justify-content: center;
+  }
+  main .main-info .main-form .main-change-pass input {
+    margin-bottom: 20px;
+  }
+}
+main .main-info .main-form .main-change-pass input {
+  width: 327px;
+  height: 50px;
+  padding-left: 20px;
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 96.4%;
+  border: 1px solid rgb(161, 161, 161);
+}
+main .main-info .main-form .main-change-pass button {
+  width: 327px;
+  height: 50px;
+  background: linear-gradient(-36.49deg, rgb(11, 63, 55) -6.658%, rgb(203, 141, 98) 131.874%);
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 96.4%;
+}
+main .main-info .main-form .main-info-systemprice {
+  margin-bottom: 40px;
+}
+main .main-info .main-form .main-info-systemprice .main-info-systemprice-input {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 637px) {
+  main .main-info .main-form .main-info-systemprice .main-info-systemprice-input {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .main-info .main-form .main-info-systemprice .main-info-systemprice-input input {
+    margin-bottom: 20px;
+  }
+}
+main .main-info .main-form .main-info-systemprice .main-info-systemprice-input :first-child {
+  width: 327px;
+  height: 50px;
+  padding-left: 20px;
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 96.4%;
+}
+main .main-info .main-form .main-info-systemprice .main-info-systemprice-input input {
+  width: 148px;
+  height: 50px;
+  padding-left: 20px;
+  color: rgb(3, 20, 18);
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 96.4%;
+  border: 1px solid rgb(161, 161, 161);
+}
+@media (max-width: 637px) {
+  main .main-info .main-form .last-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+main .main-info .main-form .last-button button {
+  background: linear-gradient(150.16deg, rgb(94, 57, 40) 19.968%, rgb(228, 161, 111) 92.914%);
+  width: 327px;
+  height: 50px;
+  color: white;
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 96.4%;
+  border: none;
+}
+
+footer {
+  background: linear-gradient(-29.17deg, rgb(11, 63, 55) 43.388%, rgb(203, 141, 98) 132.439%);
+}
+footer .wrapper-footer {
+  padding-top: 80px;
+  max-width: 1404px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+@media (max-width: 497px) {
+  footer .wrapper-footer {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 497px) {
+  footer .wrap-copperPro {
+    margin-bottom: 30px;
+  }
+}
+footer .wrap-copperPro img {
+  margin-bottom: 24px;
+}
+footer .wrap-copperPro .wrap-copperpro-text {
+  margin-bottom: 21px;
+}
+footer .wrap-copperPro .wrap-copperpro-text p {
+  color: rgb(173, 173, 173);
+  font-family: "Mont";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 134.4%;
+}
+footer .wrap-copperPro a {
+  color: white;
+  font-family: "Mont";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 134.4%;
+}
+footer .wrap-nav {
+  display: flex;
+  max-width: 637px;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+footer .wrap-nav .nav-1,
+footer .wrap-nav .nav-2,
+footer .wrap-nav .nav-3 {
+  display: flex;
+  flex-direction: column;
+}
+footer .wrap-nav .nav-1 h5,
+footer .wrap-nav .nav-2 h5,
+footer .wrap-nav .nav-3 h5 {
+  color: white;
+  font-family: "Mont";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 96.4%;
+  margin-bottom: 15px;
+}
+@media (max-width: 497px) {
+  footer .wrap-nav .nav-1 h5,
+  footer .wrap-nav .nav-2 h5,
+  footer .wrap-nav .nav-3 h5 {
+    padding-right: 20px;
+  }
+}
+footer .wrap-nav .nav-1 a,
+footer .wrap-nav .nav-2 a,
+footer .wrap-nav .nav-3 a {
+  color: white;
+  font-family: "Mont";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 134.4%;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+footer .wrap-nav .nav-1 .wrap-nav-img,
+footer .wrap-nav .nav-2 .wrap-nav-img,
+footer .wrap-nav .nav-3 .wrap-nav-img {
+  display: flex;
+  max-width: 84px;
+  justify-content: space-between;
+}
+footer .wrap-nav .nav-1 img,
+footer .wrap-nav .nav-2 img,
+footer .wrap-nav .nav-3 img {
+  width: 21px;
+  height: 17px;
+}
+footer .wrap-nav .nav-3 a {
+  max-width: 132px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }/*# sourceMappingURL=style.css.map */
