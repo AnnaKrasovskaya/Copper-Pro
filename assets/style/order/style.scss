@@ -1,2 +1,13 @@
+@import url("../fonts/Mont/Mont-Light.ttf");
+@import url("../fonts/lighthaus/Lighthaus.ttf");
 @import "../_tamplate";
 @import "../_vars";
+@import "../order/_header.scss";
+@import "../order/_main.scss";
+@import "../order/_footer.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
