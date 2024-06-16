@@ -49,6 +49,12 @@ header {
   padding-top: 41px;
   margin-bottom: 72px;
 }
+@media (max-width: 435px) {
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
 header .wrapper-header {
   display: flex;
   align-items: center;
@@ -65,12 +71,6 @@ header .wrapper-header {
   header .wrapper-header img {
     display: block;
     margin-bottom: 20px;
-  }
-}
-@media (max-width: 435px) {
-  header .wrapper-header {
-    display: flex;
-    flex-wrap: nowrap;
   }
 }
 header .wrapper-header img {
@@ -99,7 +99,7 @@ header .burger_menu {
 }
 header .burger_menu img {
   width: 50px;
-  height: 50px;
+  height: 40px;
 }
 @media (max-width: 435px) {
   header .burger_menu {
@@ -418,6 +418,11 @@ main .main-info .main-form .last-button button {
 footer {
   background: linear-gradient(-29.17deg, rgb(11, 63, 55) 43.388%, rgb(203, 141, 98) 132.439%);
 }
+@media (max-width: 555px) {
+  footer {
+    padding-left: 20px;
+  }
+}
 footer .wrapper-footer {
   padding-top: 80px;
   max-width: 1404px;
@@ -426,12 +431,12 @@ footer .wrapper-footer {
   justify-content: space-between;
   padding-bottom: 30px;
 }
-@media (max-width: 497px) {
+@media (max-width: 555px) {
   footer .wrapper-footer {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 497px) {
+@media (max-width: 555px) {
   footer .wrap-copperPro {
     margin-bottom: 30px;
   }
@@ -461,6 +466,11 @@ footer .wrap-nav {
   max-width: 637px;
   justify-content: space-between;
   flex-grow: 1;
+}
+@media (max-width: 434px) {
+  footer .wrap-nav {
+    flex-wrap: wrap;
+  }
 }
 footer .wrap-nav .nav-1,
 footer .wrap-nav .nav-2,
@@ -510,7 +520,7 @@ footer .wrap-nav .nav-3 img {
   height: 17px;
 }
 footer .wrap-nav .nav-3 a {
-  max-width: 132px;
+  max-width: 157px;
 }
 
 * {

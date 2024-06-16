@@ -4,6 +4,9 @@ footer {
     rgb(11, 63, 55) 43.388%,
     rgb(203, 141, 98) 132.439%
   );
+  @media (max-width: 555px) {
+    padding-left: 20px;
+  }
   .wrapper-footer {
     padding-top: 80px;
     max-width: 1404px;
@@ -11,12 +14,12 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
-    @media (max-width: 497px) {
+    @media (max-width: 555px) {
       flex-wrap: wrap;
     }
   }
   .wrap-copperPro {
-    @media (max-width: 497px) {
+    @media (max-width: 555px) {
       margin-bottom: 30px;
     }
     img {
@@ -45,6 +48,9 @@ footer {
     max-width: 637px;
     justify-content: space-between;
     flex-grow: 1;
+    @media (max-width: 434px) {
+      flex-wrap: wrap;
+    }
     .nav-1,
     .nav-2,
     .nav-3 {
@@ -82,7 +88,7 @@ footer {
     }
     .nav-3 {
       a {
-        max-width: 132px;
+        max-width: 157px;
       }
     }
   }
